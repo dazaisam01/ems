@@ -7,3 +7,8 @@
 # TaskContext all task list
 
 # to clearn localStorage localStorage.clear();
+
+# to provide all auth values to all folders use Authprovider 
+new concept
+# export const AuthContext = createContext();
+# useContext
