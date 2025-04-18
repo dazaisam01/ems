@@ -1,12 +1,9 @@
-# React + Vite
+# Context Provide data - we use centralized data method
+# all componets are wrapped under same box 
+# go to main.jsx wrapped app inside AuthConext and TaskContext but to see the other pages like Login 
+# we can't directly access it therefore use childrean
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# AuthContext contain e.g. samarth's all details about name,login,
+# TaskContext all task list
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# to clearn localStorage localStorage.clear();
